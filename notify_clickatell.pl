@@ -4,7 +4,7 @@
 # ============================== SUMMARY =====================================
 #
 # Program   : notify_clickatell.pl
-# Version   : 1.0
+# Version   : 1.1
 # Date      : Dec 13 2011
 # Author    : Sebastien Perreault / Les Technologies Alesium Inc.
 # Copyright : Les Technologies Alesium Inc. 2011 All rights reserved.
@@ -41,8 +41,7 @@
 # On a Centos install this is /usr/lib/nagios/plugins or /usr/lib64/nagios/plugins
 # other distributions may vary.
 #
-# You need Net::SMS::Clickatell module located here: http://search.cpan.org/~ralamosm/Net-SMS-Clickatell-0.05
-#
+# 
 # NAGIOS SETUP
 #
 # 1. Create the SMS notification commands.  (Commonly found in commands.cfg)
@@ -74,9 +73,9 @@ use strict;
 use Getopt::Long;
 use LWP;
 use URI::Escape;
-use Net::SMS::Clickatell;
 
-my $version='1.0';
+
+my $version='1.1';
 my $verbose = undef; # Turn on verbose output
 my $username = undef;
 my $password = undef;

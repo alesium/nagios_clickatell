@@ -4,3 +4,4 @@ Les Technologie Alesium Nagios Plugins ChangeLog
 notify_clickatell.pl
 ------------- 
 1.0 - 13/12/2011 - Initial release
+1.1 - 13/12/2011 - Typo's
