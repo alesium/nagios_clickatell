@@ -14,4 +14,5 @@ The Plugins
 
 1. notifiy_clickatell.pl
 
-Send SMS alerts when your monitors are critical.
+Send SMS alerts through Clickatell service. View with them on 
+how to register an account.
